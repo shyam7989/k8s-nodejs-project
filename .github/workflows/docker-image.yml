@@ -46,4 +46,4 @@ jobs:
 
                   git add .
                   git commit -m "update the code"
-                  git push --set-upstream origin main
+                  git push --set-upstream origin master
