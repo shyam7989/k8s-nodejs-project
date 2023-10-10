@@ -35,7 +35,7 @@ jobs:
                   docker build -t 375383499050.dkr.ecr.ap-south-1.amazonaws.com/nodejs-project:$GITHUB_REF_NAME-$GITHUB_SHA . 
                   docker push 375383499050.dkr.ecr.ap-south-1.amazonaws.com/nodejs-project:$GITHUB_REF_NAME-$GITHUB_SHA
 
-                  git clone https://${{secrets.AWS_GITHUB_USER}}:${{secrets.AWS_GITHUB_TOKEN}}@github.com/shyam7989/gitops-k8s.git
+                  git clone https://${{secrets.AWS_GITHUB_USER}}:${{secrets.AWS_GITHUB_TOKEN}}@github.com/saiurakrishna/gitops-k8s.git
 
                   cd gitops-k8s
 
